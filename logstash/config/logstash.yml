@@ -1,0 +1,6 @@
+http.host: '0.0.0.0'
+path.config: /usr/share/logstash/pipeline
+## Disable this row for using Elk for local
+xpack.monitoring.enabled: false
+## Enable this row for using Elk for local
+#xpack.monitoring.elasticsearch.hosts: [ "localhost:9200" ]
